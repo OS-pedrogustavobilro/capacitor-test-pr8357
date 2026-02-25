@@ -12,9 +12,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "8.1.0",
     "@capacitor/app": "8.0.1",
+    "@capacitor/camera": "^8.0.0",
     "@capacitor/core": "8.1.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/file-viewer": "^2.0.0",
+    "@capacitor/file-transfer": "^2.0.0",
     "@capacitor/haptics": "8.0.1",
+    "@capacitor/ios": "8.1.0",
     "@capacitor/keyboard": "8.0.1",
     "@capacitor/status-bar": "8.0.1",
     "@ionic/react": "^8.5.0",
