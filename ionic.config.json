@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-test-pr5956",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
