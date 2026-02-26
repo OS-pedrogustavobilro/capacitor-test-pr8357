@@ -17,4 +17,6 @@ Use the "TEST ALL 4 AUDIO FILES CONCURRENTLY", you may get some failures in mism
 
 3. `npx cap run android` (or `npx cap open android` and build from Android Studio) - **You should get the bug** 
 
+4. [Optional] Do the same for iOS, and check that there is no issue there.
+
 4. Apply the fix, either by pointing to the branch of the Capacitor Fork in the aforementioned PRs containing the fix (re-run install and build/sync), or by manually patching `node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/WebViewLocalServer.java` with the code from the PR - **The bug should now be fixed**.
