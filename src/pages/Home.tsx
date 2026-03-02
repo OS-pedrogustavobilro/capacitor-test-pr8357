@@ -93,7 +93,7 @@ const Home: React.FC = () => {
 
       const response = await fetch(url, {
         headers: {
-          'Range': 'bytes=0-1023'
+          'range': 'bytes=0-1023'
         }
       });
 
@@ -144,7 +144,7 @@ const Home: React.FC = () => {
 
       const response = await fetch(url, {
         headers: {
-          'Range': rangeHeader
+          'range': rangeHeader
         }
       });
 
@@ -216,7 +216,7 @@ const Home: React.FC = () => {
       const startTime = performance.now();
       const response = await fetch(url, {
         headers: {
-          'Range': rangeHeader
+          'range': rangeHeader
         }
       });
       const endTime = performance.now();
